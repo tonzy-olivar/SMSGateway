@@ -1,2 +1,2 @@
 Usage:
-.\Powelshellcom.ps1 COM3 "+639762903345" "Test Message"
+.\sendSMS.ps1 "COM8" "+639762903345" "Test Message"
