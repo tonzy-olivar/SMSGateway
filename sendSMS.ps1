@@ -53,7 +53,7 @@ try {
     # Send the SMS message
     $sp.Write($Message)
     $sp.Write([char]26)  # Ctrl+Z to send
-    Start-Sleep -Seconds 5
+    Start-Sleep -Seconds 1
     $final = $sp.ReadExisting()
     $final
 }
